@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import { useState, type ReactNode } from "react";
 import {
   ArrowRight, Check, X, Search, ListChecks, FileDown, Wallet, Layers, ScanSearch,
