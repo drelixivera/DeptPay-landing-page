@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 import { useState, type ReactNode } from "react";
 import {
   ArrowRight, Check, X, Search, ListChecks, FileDown, Wallet, Layers, ScanSearch,
@@ -264,6 +264,7 @@ export default function App() {
       </main>
       <Closing />
       <Footer />
+      <Analytics />
     </>
   );
 }
